@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    
+</body>
+    <script>
+        var counter =0;
+        var a=false;
+        function islem(){
+       if (tahmin>number){
+        console.log("aşağı!!");
+        a=false;
+        
+    }
+    if(number>tahmin){
+        console.log("yukarııı!" );
+        a=false;
+    }
+    if(number==tahmin){
+        a =true;
+        console.log("cevap "+tahmin+ " idi!" );
+    }
+  }      
+   
+    var number= Math.floor(Math.random()*10);
+    
+    while(a==false){
+        counter++;
+        var tahmin= prompt("Sayi giriniz");  
+        islem();
+    }
+        console.log(counter+ " seferde bildiniz!!!");
+        
+    </script>
+</html>
